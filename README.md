@@ -22,3 +22,4 @@ Praticar lógica de programação, estruturas de controle e fundamentos da Progr
 
 ---
 ✍️ Desenvolvido por [Gabriel Rocha](https://github.com/Rochasg7)
+Exercícios iniciais em Java para pratica de fundamentos.
