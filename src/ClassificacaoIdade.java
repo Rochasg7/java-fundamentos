@@ -1,6 +1,10 @@
+import java.util.Scanner;
 public class ClassificacaoIdade {
     public static void main(String[] args) {
-        int i = 18;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Digite sua idade: ");
+        int i = sc.nextInt();
 
         //Definir em qual fase está
         if (i < 12) {
@@ -14,6 +18,8 @@ public class ClassificacaoIdade {
         }
 
         //Verificar possibilidade de voto
+        System.out.println();
+        System.out.print("Possibilidade de voto: ");
         if (i < 16) {
             System.out.println("Você ainda não pode votar!");
         }
@@ -23,5 +29,6 @@ public class ClassificacaoIdade {
         else {
             System.out.println("Seu voto é obrigatório!");
         }
+        sc.close();
     }
 }

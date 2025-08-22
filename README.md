@@ -15,11 +15,14 @@ Este repositório contém exercícios e projetos iniciais em **Java**, criados p
 ## 📌 Projetos até agora
 - **Operadores Aritméticos** → operações básicas (soma, subtração, multiplicação, divisão e módulo)
 - **Classificação de Números** → verifica se o número é positivo/negativo/nulo e se é par ou ímpar
-- **Classificação de Idade** → determina a faixa etária de uma pessoa
+- **Classificação de Idade** → determina a faixa etária de uma pessoa e a sua possibilidade de voto
 
 ## 🎯 Objetivo
 Praticar lógica de programação, estruturas de controle e fundamentos da Programação Orientada a Objetos em Java.
 
+## Como executar
+- Compile: `javac -d bin src/*.java`
+- Rode (exemplo): `java -cp bin NomeDaClasse`
+
 ---
 ✍️ Desenvolvido por [Gabriel Rocha](https://github.com/Rochasg7)
-Exercícios iniciais em Java para pratica de fundamentos.
