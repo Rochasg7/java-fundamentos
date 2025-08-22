@@ -14,7 +14,7 @@ public class ClassificarNumeros {
             System.out.println("Este número é negativo!");
         }
         else {
-            System.out.println("Este é um número nulo!");
+            System.out.println("Este número é nulo!");
         }
 
         //Para saber se o número é par ou impar.

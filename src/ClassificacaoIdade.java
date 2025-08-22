@@ -19,7 +19,7 @@ public class ClassificacaoIdade {
 
         //Verificar possibilidade de voto
         System.out.println();
-        System.out.print("Possibilidade de voto: ");
+        System.out.print("Possibilidade de voto:");
         if (i < 16) {
             System.out.println("Você ainda não pode votar!");
         }

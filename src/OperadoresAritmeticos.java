@@ -3,15 +3,18 @@ public class OperadoresAritmeticos {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Operadores aritmeticos: ");
+        //Define os números a serem operados
+        System.out.println("Operadores aritmeticos:");
+        
         System.out.print("Digite o primeiro número: ");
         int a = sc.nextInt();
-
         System.out.print("Digite o segundo número: ");
         int b = sc.nextInt();
 
+        //Operações com +, -, *, /, %
         System.out.println();
-        System.out.println("Operadores com esses números: ");
+        System.out.println("Operadores com esses números:");
+        
         System.out.println("Soma: " + (a + b));
         System.out.println("Subtração: " + (a - b));
         System.out.println("Multiplicação: " + (a * b));
@@ -20,7 +23,8 @@ public class OperadoresAritmeticos {
         
         //Para saber o incremento e decremento dos dois números
         System.out.println();
-        System.out.println("Incremento e decremento de A e B: ");
+        System.out.println("Incremento e decremento de A e B:");
+        
         a++;
         System.out.println("Incremento de a: " + (a));
         a--;
@@ -35,15 +39,14 @@ public class OperadoresAritmeticos {
         
         //Para saber a média dos números x, y, z
         System.out.println();
-        System.out.println("Descubra a média de três números: ");
+        System.out.println("Descubra a média de três números:");
+        
         System.out.print("Digite o primeiro número: ");
-        int x = sc.nextInt();
-
+        double x = sc.nextDouble();
         System.out.print("Digite o segundo número: ");
-        int y = sc.nextInt();
-
+        double y = sc.nextDouble();
         System.out.print("Digite o terceiro número: ");
-        int z = sc.nextInt();
+        double z = sc.nextDouble();
 
         System.out.print("A média dos números acima é: " + ((x+y+z)/3));
 
