@@ -24,5 +24,12 @@ Praticar lógica de programação, estruturas de controle e fundamentos da Progr
 - Compile: `javac -d bin src/*.java`
 - Rode (exemplo): `java -cp bin NomeDaClasse`
 
+## 📅 Roadmap
+- [ ] Fundamentos básicos
+- [ ] Estruturas condicionais mais complexas
+- [ ] Arrays e coleções
+- [ ] Introdução a Programação Orientada a Objetos
+
+
 ---
 ✍️ Desenvolvido por [Gabriel Rocha](https://github.com/Rochasg7)
