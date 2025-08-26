@@ -48,6 +48,7 @@ public class OperadoresAritmeticos {
         System.out.print("Digite o terceiro número: ");
         double z = sc.nextDouble();
 
+        System.out.println();
         System.out.print("A média dos números acima é: " + ((x+y+z)/3));
 
         sc.close();
