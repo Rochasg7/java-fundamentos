@@ -3,7 +3,7 @@ public class EstruturaWhile {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        //Para pedir ao úsuario o número  que le deseja saber a contagem regressiva
+        //Para pedir ao úsuario o número que ele deseja saber a contagem regressiva
         System.out.print("Digite um número para a contagem regressiva: ");
         int num = sc.nextInt();
 
